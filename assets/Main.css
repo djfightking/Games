@@ -1,14 +1,25 @@
-body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0; /* Example background color */
+/* Styles for the buttons */
+.button {
+    display: block;
+    padding: 20px; /* Increase padding to make buttons bigger */
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 10px; /* Adjust spacing between buttons */
+}
+
+.button:hover {
+    background-color: #555;
+}
+
+/* Additional styles for the header */
+.header {
+    text-align: center; /* Center align the header content */
 }
 
 .title {
-    background-color: #333; /* Example background color */
-    color: #fff; /* Example text color */
-    padding: 20px; /* Example padding */
-    text-align: center; /* Center align the text */
-    margin: 0; /* Remove any default margin */
+    margin: 0;
+    margin-bottom: 20px; /* Adjust spacing between title and buttons */
 }
