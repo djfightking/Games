@@ -1,0 +1,52 @@
+#game-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ensure the container takes the full height of the viewport */
+    position: relative; /* Needed for positioning the button */
+}
+
+#game-frame {
+    width: 1000px; /* Adjust the width as needed */
+    height: 500px; /* Adjust the height as needed */
+    border: 1px solid black; /* Add a 1px solid black border */
+    border-radius: 10px; /* Add border radius for rounded corners */
+}
+
+#fullscreen-btn {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#fullscreen-btn:hover {
+    background-color: #45a049;
+}
+
+#info-container {
+    width: 300px; /* Adjust width as needed */
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    margin-top: 20px; /* Adjust top margin as needed */
+    margin-left: 150px; /* Adjust left margin as needed */
+}
+
+#game-name {
+    text-align: center; /* Center-align the game name */
+}
+
+
+
+
+
+
+
+
+
